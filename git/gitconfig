@@ -1,6 +1,6 @@
 [user]
-  name = Josh Lane
-  email = me@joshualane.com
+	name = Thom Mahoney
+	email = tmahoney@engineyard.com
 [color]
   diff = auto
   status = auto
@@ -42,8 +42,7 @@
 [branch]
   autosetuprebase = always
 [github]
-  user = lanej
-  ;password = !security find-generic-password -gs github.password 2>&1 | grep "^password" | awk '{print $2}'
+	user = thommahoney
   password = !security 2>&1 >/dev/null find-generic-password -gs github.password | ruby -e 'print $1 if STDIN.gets =~ /^password: \\\"(.*)\\\"$/'
 [rerere]
   enabled = true
