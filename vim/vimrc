@@ -112,13 +112,14 @@ set guioptions-=T
 set guioptions-=r
 set guioptions-=L
 
-" Movement
+" window management
 nnoremap <A-h> <C-w>h
 nnoremap <A-j> <C-w>j
 nnoremap <A-k> <C-w>k
 nnoremap <A-l> <C-w>l
 nnoremap <A-s> <C-w>s
 nnoremap <A-q> <C-w>q
+nnoremap <A-n> <C-w>n
 
 " grep
 map <leader>a :Ack<space>
