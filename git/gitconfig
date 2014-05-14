@@ -47,4 +47,4 @@
 [rerere]
   enabled = true
 [help]
-	autocorrect = 5
+  autocorrect = 5
