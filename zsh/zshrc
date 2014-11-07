@@ -56,3 +56,5 @@ if [[ -d "/usr/local/share/chruby" ]] ; then
 
   chruby 2.0.0
 fi
+
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
