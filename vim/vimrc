@@ -163,3 +163,6 @@ autocmd FileType c,cpp,java,php,ruby autocmd BufWritePre <buffer> :%s/\s\+$//e
 
 " retab on write
 autocmd FileType c,cpp,java,php,ruby autocmd BufWritePre <buffer> :set et | retab
+
+" syntastic nav
+nnoremap <leader>ne :lnext<CR>
