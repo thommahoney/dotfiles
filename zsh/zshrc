@@ -54,5 +54,5 @@ if [[ -d "/usr/local/share/chruby" ]] ; then
   source /usr/local/share/chruby/chruby.sh
   source /usr/local/share/chruby/auto.sh
 
-  chruby 1.9.3
+  chruby 2.0.0
 fi
