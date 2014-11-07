@@ -19,12 +19,7 @@ fi
 
 export PATH="$HOME/sbin:/usr/local/bin:$PATH:/usr/local/git/bin:/usr/local/sbin"
 
-## Editor
-if [[ -s $(which mvim) ]]; then
-  export EDITOR=mvim
-else
-  export EDITOR=vim
-fi
+export EDITOR=vim
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
