@@ -52,7 +52,7 @@ set ruler
 
 " Trailling spaces and tabs
 set list
-set listchars=tab:>-,trail:*,nbsp:*
+set listchars=tab:>-,trail:·,nbsp:*
 
 set fileformat=unix
 set nobackup
